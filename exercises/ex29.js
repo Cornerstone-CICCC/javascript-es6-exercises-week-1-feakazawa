@@ -23,6 +23,6 @@ const donuts = [
   { type: "Boston Cream", cost: 5.99 },
 ];
 
-for (let i = 0; i < donuts.length; i++) {
+for (let i = 0; i < donuts.length; i++) { // Feedback: this exercise specifically asks for a for...in loop.
   console.log(`${donuts[i].type} donuts cost $${donuts[i].cost} each`);
 }

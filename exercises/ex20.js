@@ -11,5 +11,5 @@ var mechanic = "Kaylee";
 Then, print the crew array to the console.
 */
 
-crew = ["captain", "second", "pilot", "companion", "mercenary", "mechanic"];
+crew = ["captain", "second", "pilot", "companion", "mercenary", "mechanic"]; // Feedback: use the variable values, e.g. [captain, second, pilot, companion, mercenary, mechanic].
 console.log(crew);

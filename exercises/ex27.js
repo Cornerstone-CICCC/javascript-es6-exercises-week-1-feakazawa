@@ -38,7 +38,7 @@ const savingsAccount = {
     }
   },
   printAccountSummary: function () {
-    console.log(`Welcome!`);
+    console.log(`Welcome!`); // Feedback: printAccountSummary should return the full two-line message instead of logging it.
     console.log(
       `Your balance is currently $${this.balance} and your interest rate is ${this.interestRatePercent}%`,
     );

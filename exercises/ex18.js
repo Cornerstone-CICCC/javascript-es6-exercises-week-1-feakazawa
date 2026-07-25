@@ -7,7 +7,7 @@ Returns: boohoo!
 */
 
 const cry = function sad() {
-  console.log("boohoo!");
+  console.log("boohoo!"); // Feedback: cry should return "boohoo!", not only print it.
 };
 
 cry();

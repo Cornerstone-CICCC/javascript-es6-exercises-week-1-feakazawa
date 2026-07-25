@@ -42,7 +42,7 @@ function makeLine(length) {
   return line + "\n";
 }
 
-const buildTriangle = (lenTriangle) => {
+const buildTriangle = (lenTriangle) => { // Feedback: buildTriangle should return the full triangle string, not print each line directly.
   for (let row = 0; row <= lenTriangle; row++) {
     console.log(makeLine(row));
   }

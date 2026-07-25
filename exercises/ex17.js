@@ -11,7 +11,7 @@ const laugh = function (times) {
   for (let i = 0; i < times; i++) {
     answer += "ha";
   }
-  console.log(`${answer}!`);
+  console.log(`${answer}!`); // Feedback: laugh should return the string, e.g. return `${answer}!`.
 };
 
 laugh(6);

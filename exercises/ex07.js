@@ -27,7 +27,7 @@ the locale "en-US". For example, salary.toLocaleString("en-US").
 */
 
 const degree = "a Professional degree";
-let avgSalary = 89960;
+let avgSalary = 89960; // Feedback: set this inside each switch case; otherwise every degree prints the Professional degree salary.
 
 switch (degree) {
   case "no high school diploma":
